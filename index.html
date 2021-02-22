@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Digital Clock</title>
     <style>
         body{
             background: #333;
@@ -22,6 +22,9 @@
         .clock h3{
             background: #444;
         }
+        footer h3{
+            text-align: center;
+        }
          @media screen and (max-width:460px){
             .clock{
                 font-size: 2em;
@@ -30,11 +33,17 @@
             .clock span{
                 padding: 10px;
             }
+             footer h3{
+                 text-align: center;
+             }
         }
     </style>
 </head>
 <body>
     <div class="clock"></div>
     <script src="digital.js"></script>
+    <footer>
+        <h3> Made By Coleman </h3>
+    </footer>
 </body>
 </html>
